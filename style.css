@@ -3,7 +3,7 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-/*On medium-small viewport*/
+/*On small-medium viewport*/
 @media (max-width: 900px) {
   .container {
     text-align: center;
@@ -15,7 +15,7 @@
     font-size: 36px !important;
   }
   h3 {
-    font-size: 14px !important;
+    font-size: 18px !important;
     opacity: 0.7;
   }
   .launch-app-links .primary-link {
