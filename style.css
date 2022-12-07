@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+/*On medium-small viewport*/
+@media (max-width: 900px) {
+  .container {
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 36px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+    opacity: 0.7;
+  }
+  .launch-app-links .primary-link {
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .navigation-links {
+    margin-top: 20px;
+  }
+  .navigation-links a {
+    margin: 10px;
+    padding: 10px 15px;
+  }
+}
+
+/*On large viewport*/
+@media (min-width: 900px) {
+  .bottom-container {
+    margin-top: 40px;
+  }
+  h1 {
+    font-size: 96px !important;
+  }
+  h2 {
+    font-size: 48px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+    opacity: 0.7;
+  }
+  .navigation-links {
+    margin-top: 40px;
+  }
+  .navigation-links a {
+    margin: 20px;
+    padding: 20px 25px;
+  }
+  .launch-app-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: left;
+  }
+}
+
+body {
+  margin: 60px auto;
+  max-width: 100%;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+p {
+  background: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.intro {
+  margin-top: 100px;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.navigation-links a {
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.launch-app-links a {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.about-me {
+  margin-top: 100px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+.center {
+  text-align: center;
+}
+.navbar {
+  padding: 8px 0;
+}
+.navbar-toggler {
+  padding: 4px 12px;
+}
